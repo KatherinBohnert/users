@@ -1,0 +1,99 @@
+* {
+    font-family: roboto;
+  }
+  button {
+    background-color: skyblue;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px 1px black;
+    color: white;
+    height: 35px;
+    padding: 0 10px;
+  }
+  
+  button.like {
+    background-color: orange;
+    color: black;
+    margin: 20px 5px;
+  }
+  button.like:hover{
+    cursor: pointer;
+  }
+  
+  .container {
+   
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto auto auto;
+    width: 75%;
+    overflow: hidden;
+  }
+  
+ 
+  .top_nav {
+    align-items: center;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
+    overflow: hidden;
+  }
+  .top_nav h3 {
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 50px;
+    justify-content: flex-start;
+    margin: auto;
+    padding-left: 15px;
+    display: flex;
+  }
+  .title {
+    color: black;
+    margin: 10px;
+    height: 0px;
+    text-align: center;
+  }
+  .main {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+ 
+  .user {
+    align-items: center;
+    border: 2px solid #999;
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .user-nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+ 
+  .sidebar {
+    align-items: center;
+    border: 2px solid #999;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .sidebar img {
+    margin-top: 20px;
+  }
+  
+  
+  .lol style {
+    color: red;
+  }

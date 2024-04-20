@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+</head>
+<body>
+
+  <div class="top_nav">
+    <h3>Network</h3>
+    <h2 class="title">Your Feed</h2>
+  </div>
+  <div class="container">
+    <div class="sidebar">
+      <img width="100px" src="user-circle.png"></img>
+      <a href="#">Add on avatar</a>
+      <h3>James Doe</h3>
+    </div>
+
+    <div class="main">
+     
+      <div class="user">
+        <div class="user-nav">
+          <h2>Neil M</h2>
+          <h3><span id="text_0"></span> likes</h3>
+          <button class="like" onclick="onLike(0)"> likes</button>
+        </div>
+        <p class="user-details">I just set up this new discord bot, let me know what you all think.<a href="#">Link</a></p>
+      </div>
+
+    
+      <div class="user">
+        <div class="user-nav">
+          <h2>Nichole K</h2>
+          <h3><span id="text_1"></span> likes</h3>
+          <button class="like" onclick="onLike(1)"> likes</button>
+        </div>
+        <p class="user-details">Just finished my <a href="#">next comic</a>, check it out.</p>
+      </div>
+
+      
+      <div class="user">
+        <div class="user-nav">
+          <h2>Jim R</h2>
+          <h3><span id="text_2"></span> likes</h3>
+          <button class="like" onclick="onLike(2)"> likes</button>
+        </div>
+        <p class="user-details">I can't stop listening to the <a href="#">new album.</a>Who else is liking it?</p>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
